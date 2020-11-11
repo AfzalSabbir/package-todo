@@ -1,0 +1,28 @@
+{
+    "name": "AfzalSabbir/Todolist",
+    "description": "My first custom package",
+    "authors": [
+        {
+            "name": "Afzal Sabbir",
+            "email": "afzalbd1@gmail.com"
+        }
+    ],
+    "type": "library",
+    "license": "mit",
+    "minimum-stability": "dev",
+    "require": {
+        "laravelcollective/html": "^5.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AfzalSabbir\\Todolist\\TodolistServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "AfzalSabbir\\Todolist\\": "src/"
+        }
+    }
+}
